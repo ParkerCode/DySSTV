@@ -10,8 +10,8 @@ def dsstv():
 
 
 def main():
-    pass
+    print("Hello main")
 
-
-if __name__ is "__main__":
+# Name gaurd, ensures that this is the file that is run from commandline
+if __name__ == "__main__":
     main()

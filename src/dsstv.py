@@ -8,7 +8,9 @@ def dsstv():
     # rgb_image = image.convert('RGB')
     # r, g, b = rgb_image.getpixel((1, 1))
     # print(r, g, b)
-    ip.binary_image('flower.jpg', 'flower.bw.bmp', 64)
+    # ip.binary_image('flower.jpg', 'flower.bw.bmp', 64)
+    ip.grayscale_image('flower.jpg')
+    ip.binary_image('flower.jpg', 'bw.jpg', 64)
 
 
 def main():

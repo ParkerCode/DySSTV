@@ -1,2 +1,5 @@
 venv/
 .idea/
+/src/*jpg
+/src/*.bmp
+/src/__pycache__/

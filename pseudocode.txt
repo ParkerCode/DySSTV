@@ -1,0 +1,31 @@
+# This file will serve as a structuring document for building the program.
+# It is likely this file will change and/or may not represent the final program.
+
+# We will first break down what exactly this program does in a few sentences.
+DSSTV will be able to, but is not limited to:
+    >Read/Write .jpg, .png, .bmp files.
+    >Read/Write .wav, .mp3, .ogg, or other audio formats.
+    >Encode images using the standard SSTV protcols:
+        Scottie, Martin, Robot, etc...
+    >Decode audio using the standard protocols into images.
+    >Encode images using a custom protocol that allows custom image sizes
+    >Decode audio using that custom protocol.
+    >Present easy command-line interface with help section, including man page.
+    >Optionally change colorspace and quality of images encoded
+    >
+    >
+
+How can we easily break this program into classes?
+DSSTV.py
+    Provides the main start point for the program
+
+ENCODERS
+    > These can be stored in their own /src/encoders folder.
+Dynamic.py
+    Defines custom SSTV protocol, allowing dynamic image sizes. This name will
+    be changed to whatever I wind up naming the protocol.
+Scottie.py
+Martin.py
+Robot.py
+etc..
+
